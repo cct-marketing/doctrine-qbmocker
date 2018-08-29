@@ -104,6 +104,7 @@ use PHPUnit\Framework\TestCase;
  * @method withinCenter
  * @method withinCenterSphere
  * @method withinPolygon
+ * @method readOnly
  */
 class QueryBuilderMocker extends BaseQueryBuilderMocker
 {
@@ -205,7 +206,8 @@ class QueryBuilderMocker extends BaseQueryBuilderMocker
         'withinPolygon',
         'execute',
         'getSingleResult',
-        'getOneOrNullResult'
+        'getOneOrNullResult',
+        'readOnly'
     );
 
     /**
